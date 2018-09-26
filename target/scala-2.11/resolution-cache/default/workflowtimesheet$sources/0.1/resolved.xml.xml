@@ -4,7 +4,7 @@
 		module="workflowtimesheet$sources"
 		revision="0.1"
 		status="integration"
-		publication="20180921121953"
+		publication="20180926145753"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
