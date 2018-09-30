@@ -32,6 +32,7 @@ object TimeApp {
     parse.getTime(orderTimeSet(orderTimeSet.size-1)._1,orderTimeSet(orderTimeSet.size-1)._2,orderTimeSet(orderTimeSet.size-1)._3,orderTimeSet(orderTimeSet.size-1)._3+100,fileList)
 
     println("Completed Processing TIME-APP")
+	Println("for Testing purpose")
   }
 
 }
