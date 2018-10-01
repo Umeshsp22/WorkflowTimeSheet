@@ -4,10 +4,9 @@ import  com.reni.constants.Constants._
 object TimeApp {
 
   def main(args:Array[String])={
-/* Main Application */
-    println("Started processing TIME-APP Change")
-    println("Testing my App")
 
+    println("Started processing TIME-APP Change")
+   
     val FILE_LIST=Array(PROCESS_MANAGER_OUT_FILE,PROCESS_MANAGER_OUT_SCOUT_FILE)
     val event_list=Array(ORDER_PROCESS_FILE,CRITICAL_DEAL_OUT,SCOUT_PROCESS_OUT)
     val parse=new Parser()
