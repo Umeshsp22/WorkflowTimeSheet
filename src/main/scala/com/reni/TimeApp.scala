@@ -6,6 +6,7 @@ object TimeApp {
   def main(args:Array[String])={
 
     println("Started processing TIME-APP Change")
+    println("Change my application status")
    
     val FILE_LIST=Array(PROCESS_MANAGER_OUT_FILE,PROCESS_MANAGER_OUT_SCOUT_FILE)
     val event_list=Array(ORDER_PROCESS_FILE,CRITICAL_DEAL_OUT,SCOUT_PROCESS_OUT)
