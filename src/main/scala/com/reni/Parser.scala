@@ -6,7 +6,7 @@ import java.text.SimpleDateFormat
 
 /* ccreated by Umesh 2018-09-21*/
 
-class Parser 
+class Parser {
   /* Process the Files using parallel colletcion */
   def parser(path:String)={
 
