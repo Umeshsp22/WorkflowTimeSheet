@@ -32,7 +32,7 @@ class Parser {
     collection
       .groupBy(_._1)
       .map { case (group: String, traversable) => {
-        traversable.tail.foldLeft(traversable.head._1,traversable.head._2,traversable.head._2)(
+        traversable.tail.foldLeft((traversable.head._1,traversable.head._2,traversable.head._2))(
           (a,b) => {
             var min=a._2
             var max=a._3
